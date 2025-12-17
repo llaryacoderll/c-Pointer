@@ -5,7 +5,7 @@ int main(){
     char ch1;
 
     printf("enter the values of num1 , num2 : \n");
-    scanf("%d%d",&num1,&num2);
+    scanf("%e%d",&num1,&num2);
 
     printf("enter the value of ch1 : \n");
     scanf("%*c%c",&ch1);
@@ -14,4 +14,5 @@ int main(){
     printf("ch1 =%d  ch1 = %c\n",ch1,ch1);
 
     return 0;
+
 }
